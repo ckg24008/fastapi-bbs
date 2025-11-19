@@ -5,9 +5,6 @@ router = APIRouter(
     tags=["Threads"]
 )
 
-# まだ何も書かない
-# 今後ここに GET /threads, POST /threads 等を追加していく
-
 
 @router.get("/")
 async def list_threads():
