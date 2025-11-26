@@ -8,6 +8,5 @@ app = FastAPI(title="BBS API - Step1")
 # Threadsルーターを登録
 app.include_router(threads.router)
 
-app.include_router(threads.router)
 app.include_router(posts.router)
 app.include_router(posts.threads_router)
